@@ -10,6 +10,8 @@
 		2DFFC4B01CFB676B008E8FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFC4AF1CFB676B008E8FF5 /* AppDelegate.swift */; };
 		2DFFC4B21CFB676B008E8FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFC4B11CFB676B008E8FF5 /* Assets.xcassets */; };
 		2DFFC4B51CFB676B008E8FF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFC4B31CFB676B008E8FF5 /* MainMenu.xib */; };
+		2DFFC4C21CFB8CF4008E8FF5 /* menuicon-invert.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFC4C01CFB8CF4008E8FF5 /* menuicon-invert.png */; };
+		2DFFC4C31CFB8CF4008E8FF5 /* menuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFC4C11CFB8CF4008E8FF5 /* menuicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		2DFFC4B11CFB676B008E8FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFFC4B41CFB676B008E8FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2DFFC4B61CFB676B008E8FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFFC4C01CFB8CF4008E8FF5 /* menuicon-invert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon-invert.png"; sourceTree = "<group>"; };
+		2DFFC4C11CFB8CF4008E8FF5 /* menuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		2DFFC4AE1CFB676B008E8FF5 /* Kill Mouse Acceleration */ = {
 			isa = PBXGroup;
 			children = (
+				2DFFC4C01CFB8CF4008E8FF5 /* menuicon-invert.png */,
+				2DFFC4C11CFB8CF4008E8FF5 /* menuicon.png */,
 				2DFFC4AF1CFB676B008E8FF5 /* AppDelegate.swift */,
 				2DFFC4B11CFB676B008E8FF5 /* Assets.xcassets */,
 				2DFFC4B31CFB676B008E8FF5 /* MainMenu.xib */,
@@ -117,7 +123,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFFC4B21CFB676B008E8FF5 /* Assets.xcassets in Resources */,
+				2DFFC4C31CFB8CF4008E8FF5 /* menuicon.png in Resources */,
 				2DFFC4B51CFB676B008E8FF5 /* MainMenu.xib in Resources */,
+				2DFFC4C21CFB8CF4008E8FF5 /* menuicon-invert.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
